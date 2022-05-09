@@ -1,0 +1,83 @@
+body {
+  color: #444;
+  height: 100vh;
+  background: #fff;
+  font-family: Segoe UI, Arial, sans-serif;
+  line-height: 1.4;
+}
+
+.container {
+  max-width: 600px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  display: flex;
+}
+
+.button {
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  width: 20%;
+  background-color: #dcdcdc;
+  border: #fff;
+  margin: 4px 2px;
+  padding: 15px 32px;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+table {
+  width: 800px;
+  height: 200px;
+  border: 1px solid #228b22;
+}
+
+th {
+  border-bottom: 1px solid #000;
+}
+
+tr {
+  border: 1px solid #000;
+}
+
+td {
+  text-align: center;
+}
+
+.form-container {
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+
+.input-text {
+  margin-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 5px;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.input-text::placeholder {
+  color: #000;
+}
+
+.input-submit {
+  color: #5b5b5b;
+  text-align: center;
+  cursor: pointer;
+  background-color: #dcdcdc;
+  border: #fff;
+  margin: 4px 2px;
+  padding: 15px 32px;
+  font-size: 16px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.operation {
+  margin: 4px 2px;
+}
+
+/*# sourceMappingURL=index.e6b5c606.css.map */
